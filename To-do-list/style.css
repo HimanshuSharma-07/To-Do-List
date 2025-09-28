@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 2px solid black;
+    width: 33%;
+    height: 90vh;
+    align-self: center;
+    border-radius: 33px;
+    
+    
+}
+
+.nav{
+height: 45px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button {
+  background: #4caf50;
+  color: white;
+}
+
+.reset {
+  background: #e53935;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: white;
+  margin: 8px auto;
+  padding: 10px;
+  border-radius: 8px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.delBtn1{
+    height: 35px;
+}
+
+.delBtn {
+  height: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.delBtn:hover {
+  transform: scale(1.2);
+}
